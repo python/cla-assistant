@@ -95,7 +95,8 @@
         "acceptance_test": "source .env && npx codeceptjs run",
         "snyk-monitor": "snyk auth $SNYK_TOKEN && snyk monitor",
         "snyk-protect": "snyk protect",
-        "prepublish": "npm run snyk-protect"
+        "prepublish": "npm run snyk-protect",
+        "heroku-postbuild": "grunt build"
     },
     "snyk": true
 }
