@@ -48,7 +48,7 @@
         "passport-accesstoken": "^0.1.0",
         "passport-github": "^1.1.0",
         "q": "^1.5.1",
-        "raven": "^2.6.2",
+        "raven": "^2.6.4",
         "request": "^2.87.0",
         "snyk": "^1.80.1",
         "socket.io": "^2.1.0",
